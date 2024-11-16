@@ -15,5 +15,21 @@
                     VerticalOptions="Center" 
                     Clicked="NewPage_Clicked"/>
         </StackLayout>
+        <StackLayout Orientation="Horizontal" 
+             HorizontalOptions="FillAndExpand">
+            <Image Source="cat.jpg" WidthRequest="100" HeightRequest="100" VerticalOptions="Center"/>
+            <Button Text="AbsolutePage" 
+            Margin="10,0,0,0" 
+            VerticalOptions="Center" 
+            Clicked="NewPage_Clicked"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" 
+             HorizontalOptions="FillAndExpand">
+            <Image Source="duck.jpg" WidthRequest="100" HeightRequest="100" VerticalOptions="Center"/>
+            <Button Text="AbsolutePage" 
+            Margin="10,0,0,0" 
+            VerticalOptions="Center" 
+            Clicked="NewPage_Clicked"/>
+        </StackLayout>
     </FlexLayout>
 </ContentPage>
