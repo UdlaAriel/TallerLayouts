@@ -3,5 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppEightWeek.Views.AbsolutePage"
              Title="AbsolutePage">
+    <AbsoluteLayout>
+        <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <StackLayout>
+                <Label Text="Historia Liga De Quito" FontSize="30" TextColor="Blue"/>
+                <Label Text="La Liga Deportiva Universitaria fue fundada oficialmente el 11 de enero de 1930, pero su origen se remonta a 1918, cuando un grupo de estudiantes de la Universidad Central de Ecuador formó un equipo de fútbol aficionado llamado Universitario, considerado un embrión de la Liga. La profesionalización del fútbol ecuatoriano sólo se produjo en 1954. Tres años después se celebró el primer campeonato nacional, conocido por ese entonces comoInter-Andino. En las primeras 41 ediciones, la LDU sólo se quedó con el trofeo en cuatro ediciones, pero al final de los 90, los albos comenzaron a dar señales de que se convertirían en una de las principales potencias del fútbol ecuatoriano. Aparte de los títulos de 1998 e 1999, la LDU conquistó hasta 2012, los campeonatos nacionales de 2003, 2005, 2007 y 2010. Pero sus mayores logros fueron continentales. En 2008, se consagró como el primer y único club de ese país en obtener la Copa Libertadores da América, derrotando al Fluminense (Brasil) en Río de Janeiro en la tanda de penales. En 2009, se quedó con la Copa Sudamericana y la Recopa, superando a los brasileños Fluminense e Internacional, respectivamente. En 2010, se cerró el ciclo brillante, quedándose con el bicampeonato de la Recopa al vencer a Estudiantes de la Plata (Argentina). La LDU juega como local en el estadio Casa Blanca, el que tiene una capacidad superior a las 40 mil personas. En casa viste completamente de blanco y en la parte izquierda del pecho, los jugadores lucen el escudo formado por un triángulo azul y rojo con la letra U blanca y centralizada. Sobre el distintivo, cuatro estrellas doradas representan las conquistas continentales." FontSize="20" 
+                       LineBreakMode="WordWrap"/>
+                <Image Source="liga1.jpeg"/>
+            </StackLayout>
+        </ScrollView>
+        <Button 
+            Text="Regresar"
+            AbsoluteLayout.LayoutBounds="1,1,AutoSize,AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            Clicked="NewPage_Clicked"
+            />
 
+    </AbsoluteLayout>
 </ContentPage>
