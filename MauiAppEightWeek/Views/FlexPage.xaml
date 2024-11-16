@@ -4,10 +4,10 @@
              x:Class="MauiAppEightWeek.Views.FlexPage"
              Title="FlexPage">
     <FlexLayout Direction="Row"
-            AlignItems="Start"
-            JustifyContent="SpaceEvenly">
-        <Image Source = "dog1.jpg" MaximumHeightRequest="50"/>
-        <Button Text="Button" Clicked="NewPage_Clicked"/>
-    </FlexLayout>
-    
+                    AlignItems="Start"
+                    JustifyContent="Center">
+            <Image Source = "dog1.jpg" MaximumHeightRequest="50"/>
+            <Button Text="Button" Clicked="NewPage_Clicked"/>
+     </FlexLayout>
+
 </ContentPage>

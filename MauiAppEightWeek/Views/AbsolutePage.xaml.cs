@@ -6,4 +6,8 @@ public partial class AbsolutePage : ContentPage
     {
         InitializeComponent();
     }
+    public void NewPage_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new GridPage());
+    }
 }

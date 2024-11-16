@@ -8,6 +8,6 @@ public partial class FlexPage : ContentPage
     }
     public void NewPage_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new StackPage());
+        Navigation.PushAsync(new AbsolutePage());
     }
 }
