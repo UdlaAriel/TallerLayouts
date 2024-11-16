@@ -3,11 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppEightWeek.Views.FlexPage"
              Title="FlexPage">
-    <FlexLayout Direction="Row"
+    <FlexLayout Direction="Column"
+                AlignContent="Start"
+                JustifyContent="SpaceEvenly">
+        <FlexLayout Direction="Row"
                     AlignItems="Start"
                     JustifyContent="Center">
             <Image Source = "dog1.jpg" MaximumHeightRequest="50"/>
-            <Button Text="Button" Clicked="NewPage_Clicked"/>
-     </FlexLayout>
-
+            <Button Text="AbsoluteLayout" Clicked="NewPage_Clicked"/>
+        </FlexLayout>
+        <FlexLayout Direction="Row"
+            AlignItems="Start"
+            JustifyContent="Center">
+            <Image Source = "cat.jpg" MaximumHeightRequest="50"/>
+            <Button Text="AbsoluteLayout" Clicked="NewPage_Clicked"/>
+        </FlexLayout>
+        <FlexLayout Direction="Row"
+            AlignItems="Start"
+            JustifyContent="Center">
+            <Image Source = "duck.jpg" MaximumHeightRequest="50"/>
+            <Button Text="AbsoluteLayout" Clicked="NewPage_Clicked"/>
+        </FlexLayout>
+    </FlexLayout>
+    
 </ContentPage>
