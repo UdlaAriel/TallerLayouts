@@ -4,4 +4,32 @@
              x:Class="MauiAppEightWeek.Views.FlexPage"
              Title="FlexPage">
 
-</ContentPage>
+    <FlexLayout Direction="Column" 
+                AlignItems="Center" 
+                JustifyContent="Center">
+        <StackLayout Orientation="Horizontal" 
+                     HorizontalOptions="FillAndExpand">
+            <Image Source="dog.jpg" WidthRequest="200" HeightRequest="200" VerticalOptions="Center"/>
+            <Button Text="AbsolutePage" 
+                    Margin="10,0,0,20" 
+                    VerticalOptions="Center" 
+                    Clicked="NewPage_Clicked"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" 
+             HorizontalOptions="FillAndExpand">
+            <Image Source="cat.jpg" WidthRequest="200" HeightRequest="200" VerticalOptions="Center"/>
+            <Button Text="AbsolutePage" 
+                    Margin="10,0,0,20" 
+                    VerticalOptions="Center" 
+                    Clicked="NewPage_Clicked"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" 
+             HorizontalOptions="FillAndExpand">
+            <Image Source="duck.jpg" WidthRequest="200" HeightRequest="200" VerticalOptions="Center"/>
+            <Button Text="AbsolutePage" 
+                    Margin="10,0,0,20" 
+                    VerticalOptions="Center" 
+                    Clicked="NewPage_Clicked"/>
+        </StackLayout>
+    </FlexLayout>
+</ContentPage>  
